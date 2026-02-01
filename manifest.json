@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Secure File Downloader",
+  "version": "2.0.0",
+  "description": "Secure file finder and batch downloader for web pages",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "secure_popup.html"
+  }
+}
