@@ -1,8 +1,8 @@
-# ?? Secure File Downloader - Chrome Extension
+#  Secure File Downloader - Chrome Extension
 
 A robust and security-focused Chrome extension designed to scan web pages, identify specific file types, and manage batch downloads safely.
 
-## ? Key Features
+##  Key Features
 
 * **Deep Scanning:** Scans the active tab, including all nested frames (iframes), to find downloadable assets.
 * **Smart Filtering:** Supports multiple file categories:
@@ -19,7 +19,7 @@ A robust and security-focused Chrome extension designed to scan web pages, ident
     * Limit of 50 concurrent downloads for optimal performance.
 * **Clean UI:** Minimalist interface with real-time status updates and file statistics.
 
-## ??? Installation (Developer Mode)
+##  Installation (Developer Mode)
 
 1.  Download or clone this repository to your local machine.
 2.  Open Google Chrome and navigate to `chrome://extensions/`.
@@ -27,12 +27,12 @@ A robust and security-focused Chrome extension designed to scan web pages, ident
 4.  Click **"Load unpacked"**.
 5.  Select the folder containing the extension files (`manifest.json`, etc.).
 
-## ?? Project Structure
+##  Project Structure
 
 * `manifest.json`: Defines extension permissions (activeTab, downloads, scripting) and metadata.
 * `secure_popup.html`: The user interface, localized for RTL support.
 * `secure_popup.js`: The core logic for scanning, security validation, and download handling.
 
-## ?? Disclaimer
+##  Disclaimer
 
 Always ensure you have permission to download content from websites. Use this tool responsibly and only download files from trusted sources.
